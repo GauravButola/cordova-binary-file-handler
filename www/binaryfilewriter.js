@@ -1,7 +1,7 @@
 var exec = require('cordova/exec');
 
 var BinaryFileWriter = {
-  writeToFile: function(success, error, path, base64data) {
+  writeToFile: function(path, base64data, success, error) {
     cordova.exec(success, error, "BinaryFileWriter", "writeToFile", [path, base64data]);
   }
 };

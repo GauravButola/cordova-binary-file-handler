@@ -13,5 +13,7 @@
         </config-file>
         <header-file src="src/ios/BinaryFileWriter.h" />
         <source-file src="src/ios/BinaryFileWriter.m" />
+
+        <framework src="AssetsLibrary.framework" />
     </platform>
 </plugin>
